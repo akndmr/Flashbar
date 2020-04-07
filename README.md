@@ -44,17 +44,22 @@ It has been written **100% in Kotlin**. ❤️
 * [Contribution](#contribution)
 * [License](#license)
 
-### Spread Some :heart:
-[![GitHub followers](https://img.shields.io/github/followers/aritraroy.svg?style=social&label=Follow)](https://github.com/aritraroy)  [![Twitter Follow](https://img.shields.io/twitter/follow/aritraroy.svg?style=social)](https://twitter.com/aritraroy) 
-
 # Download
 
 This library is available in **jCenter** which is the default Maven repository used in Android Studio. You can also import this library from source as a module.
+
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
  
 ```groovy
 dependencies {
     // other dependencies here
-    implementation 'com.andrognito.flashbar:flashbar:{latest_version}'
+    implementation 'com.github.akndmr:Flashbar:v1.0.3'
 }
 ```
 
