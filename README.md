@@ -59,7 +59,7 @@ This library is available in **jCenter** which is the default Maven repository u
 ```groovy
 dependencies {
     // other dependencies here
-    implementation 'com.github.akndmr:Flashbar:v1.0.3'
+    implementation 'com.github.akndmr:Flashbar:v1.0.4'
 }
 ```
 
